@@ -43753,10 +43753,6 @@ var _NotFoundPage = __webpack_require__(533);
 
 var _NotFoundPage2 = _interopRequireDefault(_NotFoundPage);
 
-var _Sujith = __webpack_require__(534);
-
-var _Sujith2 = _interopRequireDefault(_Sujith);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = [_extends({}, _App2.default, {
@@ -60603,33 +60599,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 534 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _react = __webpack_require__(1);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Sujith = function Sujith() {
-    return _react2.default.createElement(
-        'div',
-        null,
-        'sujith boppa'
-    );
-};
-
-exports.default = Sujith;
-
-/***/ }),
+/* 534 */,
 /* 535 */
 /***/ (function(module, exports, __webpack_require__) {
 
