@@ -45,6 +45,6 @@ app.use(express.static('public'));
   });
 
 
-app.listen(PORT, () => {
+app.listen(proess.env.PORT || 3000, () => {
   console.log('Listening on prot 3000');
 });

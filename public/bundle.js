@@ -13221,7 +13221,7 @@ var _Routes = __webpack_require__(488);
 
 var _Routes2 = _interopRequireDefault(_Routes);
 
-var _reducers = __webpack_require__(535);
+var _reducers = __webpack_require__(534);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
@@ -60599,8 +60599,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 534 */,
-/* 535 */
+/* 534 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60612,7 +60611,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _redux = __webpack_require__(80);
 
-var _usersReducer = __webpack_require__(536);
+var _usersReducer = __webpack_require__(535);
 
 var _usersReducer2 = _interopRequireDefault(_usersReducer);
 
@@ -60623,7 +60622,7 @@ exports.default = (0, _redux.combineReducers)({
 });
 
 /***/ }),
-/* 536 */
+/* 535 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
