@@ -12,7 +12,7 @@ export default () => {
         <div className="container">
           © 2020 Mini TokoPedia BY Sujith Boppa
           <div className="grey-text text-lighten-4 right">
-            U can Follow me on these
+            U can Follow me on
           </div>
           <div className="grey-text text-lighten-4 right">
           <CgTwitter/>

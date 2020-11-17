@@ -44148,7 +44148,7 @@ exports.default = function () {
         _react2.default.createElement(
           "div",
           { className: "grey-text text-lighten-4 right" },
-          "U can Follow me on these"
+          "U can Follow me on"
         ),
         _react2.default.createElement(
           "div",
