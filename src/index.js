@@ -45,6 +45,6 @@ app.use(express.static('public'));
   });
 
 
-app.listen(port, host, () => {
+app.listen(port, () => {
   console.log(`Listening on prot ${port}`);
 });
