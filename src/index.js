@@ -9,6 +9,8 @@ import HomePage from './client/pages/HomePage'
 import { renderToString } from 'react-dom/server';
 import React from 'react'
 
+var PORT = process.env.PORT || 3000
+
 const app = express();
 
 app.use(express.static('public'));
