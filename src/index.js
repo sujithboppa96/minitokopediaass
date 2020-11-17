@@ -9,8 +9,8 @@ import HomePage from './client/pages/HomePage'
 import { renderToString } from 'react-dom/server';
 import React from 'react'
 
-var PORT = process.env.PORT || 3000
-
+const host = '0.0.0.0';
+const port = process.env.PORT || 3000;
 const app = express();
 
 app.use(express.static('public'));
@@ -45,6 +45,6 @@ app.use(express.static('public'));
   });
 
 
-app.listen(proess.env.PORT || 3000, () => {
+app.listen(port, host, () => {
   console.log('Listening on prot 3000');
 });
